@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ABM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">        
+        <script src="../lib/js/jquery-1.11.0.min.js"></script>
+        <script src="../lib/js/sweet-alert.js"></script>      
+        <script src="../lib/js/jquery.numeric.js"></script>      
+        <script src="../html/js/refresh_ima.js"></script>
+
+        <script src="../lib/js/upload.js"></script>     
+        <script src="../html/js/controller_ajax.js"></script>
+        <link rel="stylesheet" href="../html/css/style.css"/>
+        <link rel="stylesheet" href="../lib/css/sweet-alert.css"/>        
+    </head>
+    <body>
+        <h1 id='title' >Tienda de videos</h1> 
+        <div class="center" >
+            <nav class="menu" id="menu">
+                <ul>
+                    <li id="M_stock">
+                        <p>Stock</p>    
+                    </li>
+                    <li id="M_Agregar"> 
+                        <p>Agregar</p>    
+                    </li> 
+                    
+                </ul>
+            </nav>
+             
+            <div id="parent_content_stock">
+                <p class="title">Lista de Videos</p>
+                <div id="content_stock">
+                    
+                </div>
+                <button id="on_back" class="on_back">
+                    Regresar
+                </button>
+                
+            </div>
+            <br>
+            <br>
+            <div id="content_mod">
+                <div class="content_form">
+                        <p>Titulo</p>
+                        <input type="text" id="titulo">
+
+                        <p>Categoria</p>                
+                        <input type="text" id="categoria">
+                        <p>Director</p>
+                        <input type="text" id="director">
+                        <p>Duracion</p>
+                        <input type="text" id="duracion">                        
+                        <input type="file" name="imagen" id="imagen" />
+                        <p>Nombre Image</p>
+                        <input type="text" id="name_image">                    
+                    <br>
+                    <br>
+                    <button id="Add" >Agregar</button>
+                    <button id="Actualizar">Actualizar</button>
+                    <button id="Eliminar">Eliminar</button>
+                </div>
+                <div class="image">
+                    <img id="title_image" src="" width="195"/> 
+                </div>
+                <button class="on_back">
+                    Regresar
+                </button>
+            </div>
+            <div id="pop-up">                
+                <p>
+                    <img id="pop_up_image" src="" alt="">              
+                </p>
+            </div>
+        </div>                  
+        <script src="../html/js/var_contents.js"></script>
+        <script src="../html/js/main.js"></script> 
+    </body>    
+</html>

@@ -1,0 +1,180 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-04-2015, 10:44:32 AM
+    Author     : epsas
+*/
+.center{
+    margin: 0 auto;
+    width: 60%;
+    background:rgb(92, 151, 191);
+    height: 550px;
+}
+h1,h2{
+    text-align: center;
+}
+nav{
+    position: relative;        
+}
+ul{    
+    margin: 0 auto ;
+    padding: 50px;
+    position: relative;    
+    width: 80%;    
+}
+ul>li{
+    float:left;
+    width: 50%;
+    height: 200px;
+    font-size: 26px;
+    color:white;
+    list-style: none;
+    text-align: center;
+    background: rgba(74, 163, 223,0.9);   
+    border-radius: 20px;
+    margin-top: 30%;
+}
+ul>li>p{
+    margin:35%;
+}
+ul>li:hover{
+    background-color: rgb(134, 226, 213);
+    cursor: pointer;    
+    border-radius: 50%;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+#content_mod > p{
+ margin-bottom: 0px !important;   
+}
+#content_mod > input{
+    margin-left: 20px;
+}
+.block{    
+    width: 24%;
+    text-align: center;
+    background: lightblue;
+    position: relative;
+    margin-left: 3px;
+    float:left;
+    height: 40px;
+    border:1px solid #8AAAE8;
+}
+.on_back{
+    background: rgb(134, 226, 213);
+    width: 100%;
+    font-size: 16px;
+    height: 50px;    
+    border:none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.on_back:hover{
+    background:white;
+    color:black;
+    border:5px solid rgba(13, 7, 0,0.8);    
+}
+.content_form{
+    margin-left: 20px;
+    float:left;
+    width: 60%;
+    background:rgba(134, 226, 213,0.1);
+    height: 480px;       
+}
+.content_form > p{
+    color:white;
+    margin-bottom: 5px !important;
+}
+.content_form > input{
+     margin-left: 15px ;
+    width: 90%;
+    height: 25px;
+    border:none;
+    font-size: 16px;
+}
+.content_form > button{    
+    width: 31%;
+    height: 30px;
+    margin-left: 4px;
+    border:none;
+    font-size: 16px;
+    border:none;
+    color :white;
+    background: rgba(92, 151, 191,1);
+}
+.content_form > button:hover{
+    background: rgb(46, 204, 113);
+    color:white;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+#parent_content_stock{        
+    margin: 0 auto;
+    width: 95%;    
+    height: 540px;
+    margin-top: 35px;    
+    background: rgba(134, 226, 213,0.1);
+}
+#content_stock{     
+    height: 438px;
+    overflow-x:hidden; 
+    overflow-y:auto; 
+}
+.title{
+    color:white;
+    font-size: 24px;
+    text-align:center;
+    padding-top: 10px;
+}
+.block_title{
+    width: 24%;
+    text-align: center;    
+    background: rgba(27, 163, 156,0.4);   
+    position: relative;
+    margin-left: 3px;
+    color:white;
+    float:left;
+    height: 40px;    
+}
+.image{
+    float:left;    
+}
+#imagen{
+    margin-top: 15px;
+    border: none;
+    color:white;
+}
+.disable_button{
+    background: rgba(253, 227, 167,0.8) !important;
+    color:black !important;
+}
+.disable_button:hover{
+    background: rgb(213, 106, 84)!important;
+    color:white !important;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+/*pop-up*/
+
+div#pop-up {
+        display: none;
+        position: absolute;
+        width: 195px;
+        height: 0px;
+        padding: 0px;
+        background: #eeeeee;
+        color: #000000;
+        /*border: 1px solid #1a1a1a;        */
+}
